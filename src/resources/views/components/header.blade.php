@@ -9,7 +9,7 @@
         <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto">
             <a href="{{ route('login') }}" class="mr-5 hover:text-gray-900">Employers</a>
         </nav>
-        <a href="{{ route('listings.index') }}" class="inline-flex items-center px-3 py-1 mt-4 text-base text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600 md:mt-0">Post Job
+        <a href="{{ route('listings.create') }}" class="inline-flex items-center px-3 py-1 mt-4 text-base text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600 md:mt-0">Post Job
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
